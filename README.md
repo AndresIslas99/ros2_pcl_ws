@@ -9,6 +9,8 @@ Workspace para **ROS 2 Humble** con un ejemplo mínimo de nubes de puntos:
 - **Launch** único para arrancar publisher + filtro + **RViz2**.
 - Entorno por carpeta con **direnv** (opcional).
 
+![Demo - PassThrough en RViz2](docs/_static/demo.gif)
+
 > Ideal para empezar, demos y CI: no requiere sensor físico.
 
 ---
