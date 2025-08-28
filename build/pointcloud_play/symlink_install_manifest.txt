@@ -1,0 +1,17 @@
+/home/andres/dev/ros2_pcl_ws/install/pointcloud_play/lib/pointcloud_play/pass_through
+/home/andres/dev/ros2_pcl_ws/install/pointcloud_play/lib/pointcloud_play/pc_pub.py
+/home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/ament_index/resource_index/package_run_dependencies/pointcloud_play
+/home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/ament_index/resource_index/parent_prefix_path/pointcloud_play
+/home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/environment/ament_prefix_path.sh
+/home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/environment/ament_prefix_path.dsv
+/home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/environment/path.sh
+/home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/environment/path.dsv
+/home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/local_setup.bash
+/home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/local_setup.sh
+/home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/local_setup.zsh
+/home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/local_setup.dsv
+/home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/package.dsv
+/home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/ament_index/resource_index/packages/pointcloud_play
+/home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/cmake/pointcloud_playConfig.cmake
+/home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/cmake/pointcloud_playConfig-version.cmake
+/home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/package.xml

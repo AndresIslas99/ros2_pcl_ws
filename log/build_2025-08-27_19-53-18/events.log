@@ -1,0 +1,212 @@
+[0.000000] (-) TimerEvent: {}
+[0.000226] (pointcloud_play) JobQueued: {'identifier': 'pointcloud_play', 'dependencies': OrderedDict()}
+[0.000503] (pointcloud_play) JobStarted: {'identifier': 'pointcloud_play'}
+[0.004868] (pointcloud_play) JobProgress: {'identifier': 'pointcloud_play', 'progress': 'cmake'}
+[0.005248] (pointcloud_play) Command: {'cmd': ['/usr/bin/cmake', '/home/andres/dev/ros2_pcl_ws/src/pointcloud_play', '-DPython3_EXECUTABLE=/home/andres/dev/ros2_pcl_ws/.direnv/python-3.10-sys/bin/python3', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/andres/dev/ros2_pcl_ws/install/pointcloud_play'], 'cwd': '/home/andres/dev/ros2_pcl_ws/build/pointcloud_play', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'andres'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.4/lib64'), ('HOME', '/home/andres'), ('OLDPWD', '/home/andres/dev/ros2_pcl_ws/src/pointcloud_play'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DIRENV_DIFF', 'eJzMU01zokAQ_S99hoDRaMINFAWDjMFRNJepUdAQkUEGFEnlv2-hrtmwJqna097o1-8N_fXeIAblDawOsUzNUZ0ZGarYAAWkjCdSyBY0lBaZR8Xa7U1DCoN5swEC_Oa8sI0v0chLfC7Ng0i5KjomvmHySnwJPxLHj1N4wVZ04_M_dWeARzQ-C85f8C5AVHapDnQbk6Gjd80pudaD5--khPFbEi9CsudSEPGUhqEUsyBKFyHLPBKH9KBILE5LovSSbeahDwK0kdVG9j-8DQJ0TEe3J6RjOqCA-J3og-yquG3oI1DA7-e84N3tvlAHqq0RGYfjxcZsTfxGqxPNluwQuE-rfjZEe27MigdRbL4OidZoFWTf54tHXdRoi9EDbbk9GixdeZfMn--3deceWS3Xs-VBN5Fd1OrJedYxjL05yT3tQJZuwSnWlw88JVk2fe33x1EvXbNa7bFOl1trPdWajUC9s3TEcfGgNwZBvZdrheE84jXb0W3dFP07ZgTztn2XN5-K6Thsu7sD7uKIzMk07-5VlRBx_qyvZRCuXejnJZzCXVAQtkp8svMjjyXlxVa3VWJSft8kzYYYBlGWi6sou0a6fs5VD1R0f117de83XpD40U6KD-kLi8T6TU0W-YH_aJP_yVACDGfYQLaNxiPdGZlYBwVqF_iL0ZRzP3VdNi3xIPXFmC7WdFX-pko-llCReAFPLxIQwEEj0jFH2EGgwMWLJWqhtmoZaIQJsq0ZKCCfE6cKyaQsG9mgQP2c-EBuQYCJ6eCxahHdnvxk5C8W-vmRskxVs3QydNBgiI_jen__FQAA___JG9V6'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '6151'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PYTHONNOUSERSITE', '1'), ('COLCON_PREFIX_PATH', '/home/andres/dev/ros2_pcl_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'andres'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'andres'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/andres/dev/ros2_pcl_ws/.direnv/python-3.10-sys/bin:/home/andres/bin:/usr/local/cuda-12.4/bin:/home/andres/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/andres-Legion-Pro-7-16IRX8H:@/tmp/.ICE-unix/5445,unix/andres-Legion-Pro-7-16IRX8H:/tmp/.ICE-unix/5445'), ('DIRENV_WATCHES', 'eJxszsFqwzAMANB_0TlUcmI7Ve47DnYfoyiWQgJuPOwsHYz9--6jP_B47z_wJscKE-Ba7oaya7WGaifW0vrbZ8q3R8OL7WdN0MFr0WO7G0xuDHHwIVxdBy_fWzsaTEf9st_uuXjJJUnGtko11K3afqLkXB64iA5LEOsTz9E4Mi3GxBzHRKTkovaq3I-e5oHibCN5x6QzXUlCWvyTFTn_b_XxFwAA__-bZEk0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dbd305fe_1756_447a_b383_4836d8ea550b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/andres/dev/ros2_pcl_ws/install/pointcloud_play:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('DIRENV_DIR', '-/home/andres/dev/ros2_pcl_ws'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('VIRTUAL_ENV', '/home/andres/dev/ros2_pcl_ws/.direnv/python-3.10-sys'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/andres/dev/ros2_pcl_ws/build/pointcloud_play'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VIRTUAL_ENV_DISABLE_PROMPT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/andres/dev/ros2_pcl_ws/install/pointcloud_play:/opt/ros/humble')]), 'shell': False}
+[0.059718] (pointcloud_play) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.100109] (-) TimerEvent: {}
+[0.110752] (pointcloud_play) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.117723] (pointcloud_play) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.191392] (pointcloud_play) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.200315] (pointcloud_play) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.200709] (-) TimerEvent: {}
+[0.200842] (pointcloud_play) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.201068] (pointcloud_play) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.204148] (pointcloud_play) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.283884] (pointcloud_play) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.291930] (pointcloud_play) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.292025] (pointcloud_play) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.292109] (pointcloud_play) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.293815] (pointcloud_play) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300918] (-) TimerEvent: {}
+[0.401197] (pointcloud_play) StdoutLine: {'line': b'-- Found Python3: /home/andres/dev/ros2_pcl_ws/.direnv/python-3.10-sys/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.401334] (-) TimerEvent: {}
+[0.440877] (pointcloud_play) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.451174] (pointcloud_play) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.470903] (pointcloud_play) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.472772] (pointcloud_play) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.476123] (pointcloud_play) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.481144] (pointcloud_play) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.487842] (pointcloud_play) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.501549] (-) TimerEvent: {}
+[0.505795] (pointcloud_play) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.506791] (pointcloud_play) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.565664] (pointcloud_play) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.593321] (pointcloud_play) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.601773] (-) TimerEvent: {}
+[0.624497] (pointcloud_play) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.627762] (pointcloud_play) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.684784] (pointcloud_play) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.685427] (pointcloud_play) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.701926] (-) TimerEvent: {}
+[0.766447] (pointcloud_play) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.768126] (pointcloud_play) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.802119] (-) TimerEvent: {}
+[0.807151] (pointcloud_play) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.820806] (pointcloud_play) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[0.839172] (pointcloud_play) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.848209] (pointcloud_play) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[0.885386] (pointcloud_play) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[0.885880] (pointcloud_play) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.902276] (-) TimerEvent: {}
+[0.917990] (pointcloud_play) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[0.932739] (pointcloud_play) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[0.980817] (pointcloud_play) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[0.980963] (pointcloud_play) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.002502] (-) TimerEvent: {}
+[1.102819] (-) TimerEvent: {}
+[1.203256] (-) TimerEvent: {}
+[1.303656] (-) TimerEvent: {}
+[1.404093] (-) TimerEvent: {}
+[1.504573] (-) TimerEvent: {}
+[1.605021] (-) TimerEvent: {}
+[1.705511] (-) TimerEvent: {}
+[1.805829] (-) TimerEvent: {}
+[1.906218] (-) TimerEvent: {}
+[1.920200] (pointcloud_play) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.936745] (pointcloud_play) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[1.983743] (pointcloud_play) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[1.984593] (pointcloud_play) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.006384] (-) TimerEvent: {}
+[2.055923] (pointcloud_play) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.106639] (-) TimerEvent: {}
+[2.178851] (pointcloud_play) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.182723] (pointcloud_play) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.186256] (pointcloud_play) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.206783] (-) TimerEvent: {}
+[2.275717] (pointcloud_play) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.306905] (-) TimerEvent: {}
+[2.360377] (pointcloud_play) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.407072] (-) TimerEvent: {}
+[2.443870] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.444227] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.444366] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.444925] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.445324] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.445731] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.445918] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[2.446061] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[2.446359] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.446865] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.447221] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.447705] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.448189] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.448518] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.449003] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.449448] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.449861] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.450286] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.450817] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.451215] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.451565] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[2.451701] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[2.451874] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[2.452315] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.452703] (pointcloud_play) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.453659] (pointcloud_play) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:8 (find_package):\n'}
+[2.453695] (pointcloud_play) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[2.453717] (pointcloud_play) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[2.453737] (pointcloud_play) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[2.453757] (pointcloud_play) StderrLine: {'line': b'\n'}
+[2.453777] (pointcloud_play) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[2.453797] (pointcloud_play) StderrLine: {'line': b'\n'}
+[2.453816] (pointcloud_play) StderrLine: {'line': b'    /usr\n'}
+[2.453835] (pointcloud_play) StderrLine: {'line': b'\n'}
+[2.453854] (pointcloud_play) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[2.453873] (pointcloud_play) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.453891] (pointcloud_play) StderrLine: {'line': b'\x1b[0m\n'}
+[2.503129] (pointcloud_play) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.507275] (-) TimerEvent: {}
+[2.553550] (pointcloud_play) StdoutLine: {'line': b'-- Generating done\n'}
+[2.560023] (pointcloud_play) StdoutLine: {'line': b'-- Build files have been written to: /home/andres/dev/ros2_pcl_ws/build/pointcloud_play\n'}
+[2.569261] (pointcloud_play) CommandEnded: {'returncode': 0}
+[2.571180] (pointcloud_play) JobProgress: {'identifier': 'pointcloud_play', 'progress': 'build'}
+[2.571204] (pointcloud_play) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andres/dev/ros2_pcl_ws/build/pointcloud_play', '--', '-j32', '-l32'], 'cwd': '/home/andres/dev/ros2_pcl_ws/build/pointcloud_play', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'andres'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.4/lib64'), ('HOME', '/home/andres'), ('OLDPWD', '/home/andres/dev/ros2_pcl_ws/src/pointcloud_play'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DIRENV_DIFF', 'eJzMU01zokAQ_S99hoDRaMINFAWDjMFRNJepUdAQkUEGFEnlv2-hrtmwJqna097o1-8N_fXeIAblDawOsUzNUZ0ZGarYAAWkjCdSyBY0lBaZR8Xa7U1DCoN5swEC_Oa8sI0v0chLfC7Ng0i5KjomvmHySnwJPxLHj1N4wVZ04_M_dWeARzQ-C85f8C5AVHapDnQbk6Gjd80pudaD5--khPFbEi9CsudSEPGUhqEUsyBKFyHLPBKH9KBILE5LovSSbeahDwK0kdVG9j-8DQJ0TEe3J6RjOqCA-J3og-yquG3oI1DA7-e84N3tvlAHqq0RGYfjxcZsTfxGqxPNluwQuE-rfjZEe27MigdRbL4OidZoFWTf54tHXdRoi9EDbbk9GixdeZfMn--3deceWS3Xs-VBN5Fd1OrJedYxjL05yT3tQJZuwSnWlw88JVk2fe33x1EvXbNa7bFOl1trPdWajUC9s3TEcfGgNwZBvZdrheE84jXb0W3dFP07ZgTztn2XN5-K6Thsu7sD7uKIzMk07-5VlRBx_qyvZRCuXejnJZzCXVAQtkp8svMjjyXlxVa3VWJSft8kzYYYBlGWi6sou0a6fs5VD1R0f117de83XpD40U6KD-kLi8T6TU0W-YH_aJP_yVACDGfYQLaNxiPdGZlYBwVqF_iL0ZRzP3VdNi3xIPXFmC7WdFX-pko-llCReAFPLxIQwEEj0jFH2EGgwMWLJWqhtmoZaIQJsq0ZKCCfE6cKyaQsG9mgQP2c-EBuQYCJ6eCxahHdnvxk5C8W-vmRskxVs3QydNBgiI_jen__FQAA___JG9V6'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '6151'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PYTHONNOUSERSITE', '1'), ('COLCON_PREFIX_PATH', '/home/andres/dev/ros2_pcl_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'andres'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'andres'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/andres/dev/ros2_pcl_ws/.direnv/python-3.10-sys/bin:/home/andres/bin:/usr/local/cuda-12.4/bin:/home/andres/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/andres-Legion-Pro-7-16IRX8H:@/tmp/.ICE-unix/5445,unix/andres-Legion-Pro-7-16IRX8H:/tmp/.ICE-unix/5445'), ('DIRENV_WATCHES', 'eJxszsFqwzAMANB_0TlUcmI7Ve47DnYfoyiWQgJuPOwsHYz9--6jP_B47z_wJscKE-Ba7oaya7WGaifW0vrbZ8q3R8OL7WdN0MFr0WO7G0xuDHHwIVxdBy_fWzsaTEf9st_uuXjJJUnGtko11K3afqLkXB64iA5LEOsTz9E4Mi3GxBzHRKTkovaq3I-e5oHibCN5x6QzXUlCWvyTFTn_b_XxFwAA__-bZEk0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dbd305fe_1756_447a_b383_4836d8ea550b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/andres/dev/ros2_pcl_ws/install/pointcloud_play:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('DIRENV_DIR', '-/home/andres/dev/ros2_pcl_ws'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('VIRTUAL_ENV', '/home/andres/dev/ros2_pcl_ws/.direnv/python-3.10-sys'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/andres/dev/ros2_pcl_ws/build/pointcloud_play'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VIRTUAL_ENV_DISABLE_PROMPT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/andres/dev/ros2_pcl_ws/install/pointcloud_play:/opt/ros/humble')]), 'shell': False}
+[2.607464] (-) TimerEvent: {}
+[2.627544] (pointcloud_play) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pass_through.dir/src/pass_through.cpp.o\x1b[0m\n'}
+[2.707550] (-) TimerEvent: {}
+[2.807718] (-) TimerEvent: {}
+[2.907895] (-) TimerEvent: {}
+[3.008188] (-) TimerEvent: {}
+[3.108514] (-) TimerEvent: {}
+[3.208704] (-) TimerEvent: {}
+[3.308938] (-) TimerEvent: {}
+[3.409138] (-) TimerEvent: {}
+[3.509352] (-) TimerEvent: {}
+[3.609540] (-) TimerEvent: {}
+[3.709761] (-) TimerEvent: {}
+[3.809985] (-) TimerEvent: {}
+[3.910209] (-) TimerEvent: {}
+[4.010516] (-) TimerEvent: {}
+[4.110711] (-) TimerEvent: {}
+[4.211023] (-) TimerEvent: {}
+[4.311309] (-) TimerEvent: {}
+[4.411537] (-) TimerEvent: {}
+[4.511757] (-) TimerEvent: {}
+[4.611983] (-) TimerEvent: {}
+[4.712268] (-) TimerEvent: {}
+[4.812499] (-) TimerEvent: {}
+[4.912695] (-) TimerEvent: {}
+[5.012891] (-) TimerEvent: {}
+[5.113173] (-) TimerEvent: {}
+[5.213481] (-) TimerEvent: {}
+[5.313776] (-) TimerEvent: {}
+[5.414066] (-) TimerEvent: {}
+[5.514359] (-) TimerEvent: {}
+[5.614661] (-) TimerEvent: {}
+[5.714890] (-) TimerEvent: {}
+[5.815211] (-) TimerEvent: {}
+[5.915505] (-) TimerEvent: {}
+[6.015699] (-) TimerEvent: {}
+[6.115919] (-) TimerEvent: {}
+[6.216192] (-) TimerEvent: {}
+[6.316492] (-) TimerEvent: {}
+[6.416737] (-) TimerEvent: {}
+[6.516957] (-) TimerEvent: {}
+[6.617223] (-) TimerEvent: {}
+[6.717548] (-) TimerEvent: {}
+[6.817839] (-) TimerEvent: {}
+[6.918112] (-) TimerEvent: {}
+[7.018396] (-) TimerEvent: {}
+[7.118675] (-) TimerEvent: {}
+[7.218862] (-) TimerEvent: {}
+[7.319162] (-) TimerEvent: {}
+[7.419453] (-) TimerEvent: {}
+[7.519630] (-) TimerEvent: {}
+[7.619824] (-) TimerEvent: {}
+[7.720073] (-) TimerEvent: {}
+[7.820352] (-) TimerEvent: {}
+[7.920696] (-) TimerEvent: {}
+[8.007443] (pointcloud_play) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pass_through\x1b[0m\n'}
+[8.020764] (-) TimerEvent: {}
+[8.120961] (-) TimerEvent: {}
+[8.221234] (-) TimerEvent: {}
+[8.321554] (-) TimerEvent: {}
+[8.421757] (-) TimerEvent: {}
+[8.476011] (pointcloud_play) StdoutLine: {'line': b'[100%] Built target pass_through\n'}
+[8.487748] (pointcloud_play) CommandEnded: {'returncode': 0}
+[8.488415] (pointcloud_play) JobProgress: {'identifier': 'pointcloud_play', 'progress': 'install'}
+[8.493404] (pointcloud_play) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/andres/dev/ros2_pcl_ws/build/pointcloud_play'], 'cwd': '/home/andres/dev/ros2_pcl_ws/build/pointcloud_play', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'andres'), ('LC_TIME', 'es_MX.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.4/lib64'), ('HOME', '/home/andres'), ('OLDPWD', '/home/andres/dev/ros2_pcl_ws/src/pointcloud_play'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DIRENV_DIFF', 'eJzMU01zokAQ_S99hoDRaMINFAWDjMFRNJepUdAQkUEGFEnlv2-hrtmwJqna097o1-8N_fXeIAblDawOsUzNUZ0ZGarYAAWkjCdSyBY0lBaZR8Xa7U1DCoN5swEC_Oa8sI0v0chLfC7Ng0i5KjomvmHySnwJPxLHj1N4wVZ04_M_dWeARzQ-C85f8C5AVHapDnQbk6Gjd80pudaD5--khPFbEi9CsudSEPGUhqEUsyBKFyHLPBKH9KBILE5LovSSbeahDwK0kdVG9j-8DQJ0TEe3J6RjOqCA-J3og-yquG3oI1DA7-e84N3tvlAHqq0RGYfjxcZsTfxGqxPNluwQuE-rfjZEe27MigdRbL4OidZoFWTf54tHXdRoi9EDbbk9GixdeZfMn--3deceWS3Xs-VBN5Fd1OrJedYxjL05yT3tQJZuwSnWlw88JVk2fe33x1EvXbNa7bFOl1trPdWajUC9s3TEcfGgNwZBvZdrheE84jXb0W3dFP07ZgTztn2XN5-K6Thsu7sD7uKIzMk07-5VlRBx_qyvZRCuXejnJZzCXVAQtkp8svMjjyXlxVa3VWJSft8kzYYYBlGWi6sou0a6fs5VD1R0f117de83XpD40U6KD-kLi8T6TU0W-YH_aJP_yVACDGfYQLaNxiPdGZlYBwVqF_iL0ZRzP3VdNi3xIPXFmC7WdFX-pko-llCReAFPLxIQwEEj0jFH2EGgwMWLJWqhtmoZaIQJsq0ZKCCfE6cKyaQsG9mgQP2c-EBuQYCJ6eCxahHdnvxk5C8W-vmRskxVs3QydNBgiI_jen__FQAA___JG9V6'), ('LC_MONETARY', 'es_MX.UTF-8'), ('SYSTEMD_EXEC_PID', '6151'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PYTHONNOUSERSITE', '1'), ('COLCON_PREFIX_PATH', '/home/andres/dev/ros2_pcl_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'andres'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'andres'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/andres/dev/ros2_pcl_ws/.direnv/python-3.10-sys/bin:/home/andres/bin:/usr/local/cuda-12.4/bin:/home/andres/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/andres-Legion-Pro-7-16IRX8H:@/tmp/.ICE-unix/5445,unix/andres-Legion-Pro-7-16IRX8H:/tmp/.ICE-unix/5445'), ('DIRENV_WATCHES', 'eJxszsFqwzAMANB_0TlUcmI7Ve47DnYfoyiWQgJuPOwsHYz9--6jP_B47z_wJscKE-Ba7oaya7WGaifW0vrbZ8q3R8OL7WdN0MFr0WO7G0xuDHHwIVxdBy_fWzsaTEf9st_uuXjJJUnGtko11K3afqLkXB64iA5LEOsTz9E4Mi3GxBzHRKTkovaq3I-e5oHibCN5x6QzXUlCWvyTFTn_b_XxFwAA__-bZEk0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dbd305fe_1756_447a_b383_4836d8ea550b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/andres/dev/ros2_pcl_ws/install/pointcloud_play:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('DIRENV_DIR', '-/home/andres/dev/ros2_pcl_ws'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('VIRTUAL_ENV', '/home/andres/dev/ros2_pcl_ws/.direnv/python-3.10-sys'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/andres/dev/ros2_pcl_ws/build/pointcloud_play'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VIRTUAL_ENV_DISABLE_PROMPT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/andres/dev/ros2_pcl_ws/install/pointcloud_play:/opt/ros/humble')]), 'shell': False}
+[8.500875] (pointcloud_play) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.501538] (pointcloud_play) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.501828] (pointcloud_play) StdoutLine: {'line': b'-- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/lib/pointcloud_play/pass_through\n'}
+[8.509609] (pointcloud_play) StdoutLine: {'line': b'-- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/ament_index/resource_index/package_run_dependencies/pointcloud_play\n'}
+[8.518727] (pointcloud_play) StdoutLine: {'line': b'-- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/ament_index/resource_index/parent_prefix_path/pointcloud_play\n'}
+[8.521868] (-) TimerEvent: {}
+[8.527465] (pointcloud_play) StdoutLine: {'line': b'-- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/environment/ament_prefix_path.sh\n'}
+[8.536360] (pointcloud_play) StdoutLine: {'line': b'-- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/environment/ament_prefix_path.dsv\n'}
+[8.545751] (pointcloud_play) StdoutLine: {'line': b'-- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/environment/path.sh\n'}
+[8.554753] (pointcloud_play) StdoutLine: {'line': b'-- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/environment/path.dsv\n'}
+[8.564499] (pointcloud_play) StdoutLine: {'line': b'-- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/local_setup.bash\n'}
+[8.572492] (pointcloud_play) StdoutLine: {'line': b'-- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/local_setup.sh\n'}
+[8.581522] (pointcloud_play) StdoutLine: {'line': b'-- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/local_setup.zsh\n'}
+[8.591230] (pointcloud_play) StdoutLine: {'line': b'-- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/local_setup.dsv\n'}
+[8.599749] (pointcloud_play) StdoutLine: {'line': b'-- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/package.dsv\n'}
+[8.607647] (pointcloud_play) StdoutLine: {'line': b'-- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/ament_index/resource_index/packages/pointcloud_play\n'}
+[8.616008] (pointcloud_play) StdoutLine: {'line': b'-- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/cmake/pointcloud_playConfig.cmake\n'}
+[8.622042] (-) TimerEvent: {}
+[8.625158] (pointcloud_play) StdoutLine: {'line': b'-- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/cmake/pointcloud_playConfig-version.cmake\n'}
+[8.633194] (pointcloud_play) StdoutLine: {'line': b'-- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/package.xml\n'}
+[8.643089] (pointcloud_play) CommandEnded: {'returncode': 0}
+[8.658099] (pointcloud_play) JobEnded: {'identifier': 'pointcloud_play', 'rc': 0}
+[8.658558] (-) EventReactorShutdown: {}

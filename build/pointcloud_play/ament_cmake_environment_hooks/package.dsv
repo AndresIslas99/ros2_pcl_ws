@@ -1,0 +1,4 @@
+source;share/pointcloud_play/local_setup.bash
+source;share/pointcloud_play/local_setup.dsv
+source;share/pointcloud_play/local_setup.sh
+source;share/pointcloud_play/local_setup.zsh

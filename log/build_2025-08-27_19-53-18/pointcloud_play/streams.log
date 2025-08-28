@@ -1,0 +1,118 @@
+[0.005s] Invoking command in '/home/andres/dev/ros2_pcl_ws/build/pointcloud_play': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/andres/dev/ros2_pcl_ws/src/pointcloud_play -DPython3_EXECUTABLE=/home/andres/dev/ros2_pcl_ws/.direnv/python-3.10-sys/bin/python3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/andres/dev/ros2_pcl_ws/install/pointcloud_play
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.110s] -- The CXX compiler identification is GNU 11.4.0
+[0.117s] -- Detecting C compiler ABI info
+[0.191s] -- Detecting C compiler ABI info - done
+[0.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.200s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.204s] -- Detecting CXX compiler ABI info
+[0.283s] -- Detecting CXX compiler ABI info - done
+[0.291s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.292s] -- Detecting CXX compile features
+[0.292s] -- Detecting CXX compile features - done
+[0.293s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.401s] -- Found Python3: /home/andres/dev/ros2_pcl_ws/.direnv/python-3.10-sys/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.440s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.451s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.470s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.472s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.476s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.481s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.487s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.505s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.506s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.565s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.593s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.624s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.627s] -- Looking for pthread.h
+[0.684s] -- Looking for pthread.h - found
+[0.685s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.766s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.768s] -- Found Threads: TRUE  
+[0.807s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.820s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.839s] -- Checking for module 'eigen3'
+[0.848s] --   Found eigen3, version 3.4.0
+[0.885s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.885s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.918s] -- Checking for module 'flann'
+[0.932s] --   Found flann, version 1.9.1
+[0.980s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.980s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.920s] -- Checking for module 'libusb-1.0'
+[1.936s] --   Found libusb-1.0, version 1.0.25
+[1.983s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.984s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.056s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.178s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.182s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.186s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.275s] -- Found Qhull version 8.0.2
+[2.360s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.443s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.444s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.444s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.444s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.445s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.445s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.445s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.446s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.446s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.446s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.447s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.447s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.448s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.448s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.449s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.449s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.449s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.450s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.450s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.451s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.451s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.451s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.451s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.452s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.452s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.453s] [33mCMake Warning (dev) at CMakeLists.txt:8 (find_package):
+[2.453s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[2.453s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[2.453s]   command to set the policy and suppress this warning.
+[2.453s] 
+[2.453s]   CMake variable PCL_ROOT is set to:
+[2.453s] 
+[2.453s]     /usr
+[2.453s] 
+[2.453s]   For compatibility, CMake is ignoring the variable.
+[2.453s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.453s] [0m
+[2.503s] -- Configuring done
+[2.553s] -- Generating done
+[2.560s] -- Build files have been written to: /home/andres/dev/ros2_pcl_ws/build/pointcloud_play
+[2.570s] Invoked command in '/home/andres/dev/ros2_pcl_ws/build/pointcloud_play' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/andres/dev/ros2_pcl_ws/src/pointcloud_play -DPython3_EXECUTABLE=/home/andres/dev/ros2_pcl_ws/.direnv/python-3.10-sys/bin/python3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/andres/dev/ros2_pcl_ws/install/pointcloud_play
+[2.571s] Invoking command in '/home/andres/dev/ros2_pcl_ws/build/pointcloud_play': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/andres/dev/ros2_pcl_ws/build/pointcloud_play -- -j32 -l32
+[2.627s] [ 50%] [32mBuilding CXX object CMakeFiles/pass_through.dir/src/pass_through.cpp.o[0m
+[8.007s] [100%] [32m[1mLinking CXX executable pass_through[0m
+[8.476s] [100%] Built target pass_through
+[8.487s] Invoked command in '/home/andres/dev/ros2_pcl_ws/build/pointcloud_play' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/andres/dev/ros2_pcl_ws/build/pointcloud_play -- -j32 -l32
+[8.493s] Invoking command in '/home/andres/dev/ros2_pcl_ws/build/pointcloud_play': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/andres/dev/ros2_pcl_ws/build/pointcloud_play
+[8.500s] -- Install configuration: ""
+[8.501s] -- Execute custom install script
+[8.501s] -- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/lib/pointcloud_play/pass_through
+[8.509s] -- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/ament_index/resource_index/package_run_dependencies/pointcloud_play
+[8.518s] -- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/ament_index/resource_index/parent_prefix_path/pointcloud_play
+[8.527s] -- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/environment/ament_prefix_path.sh
+[8.536s] -- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/environment/ament_prefix_path.dsv
+[8.545s] -- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/environment/path.sh
+[8.554s] -- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/environment/path.dsv
+[8.564s] -- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/local_setup.bash
+[8.572s] -- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/local_setup.sh
+[8.581s] -- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/local_setup.zsh
+[8.591s] -- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/local_setup.dsv
+[8.599s] -- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/package.dsv
+[8.607s] -- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/ament_index/resource_index/packages/pointcloud_play
+[8.616s] -- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/cmake/pointcloud_playConfig.cmake
+[8.625s] -- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/cmake/pointcloud_playConfig-version.cmake
+[8.633s] -- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/package.xml
+[8.643s] Invoked command in '/home/andres/dev/ros2_pcl_ws/build/pointcloud_play' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/andres/dev/ros2_pcl_ws/build/pointcloud_play

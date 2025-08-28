@@ -1,0 +1,1 @@
+/home/andres/dev/ros2_pcl_ws/build/pointcloud_play/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 3.8)
+project(pointcloud_play)
+
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(pcl_conversions REQUIRED)
+find_package(PCL REQUIRED COMPONENTS common io filters)
+
+add_executable(pass_through src/pass_through.cpp)
+
+# Cabeceras de PCL
+target_include_directories(pass_through PRIVATE ${PCL_INCLUDE_DIRS})
+# Dependencias ROS2 + PCL
+ament_target_dependencies(pass_through rclcpp sensor_msgs pcl_conversions)
+# Librerías PCL
+target_link_libraries(pass_through ${PCL_LIBRARIES})
+
+install(TARGETS pass_through DESTINATION lib/${PROJECT_NAME})
+
+ament_package()
