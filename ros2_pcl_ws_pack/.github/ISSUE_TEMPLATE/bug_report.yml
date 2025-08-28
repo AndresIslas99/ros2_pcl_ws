@@ -1,0 +1,21 @@
+name: Bug Report
+description: Reporta un error reproducible
+labels: ["bug"]
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir
+      description: Comandos, launch, bags
+    validations:
+      required: true
+  - type: input
+    id: ros
+    attributes:
+      label: ROS 2 distro
+      placeholder: jazzy/humble
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      render: shell
