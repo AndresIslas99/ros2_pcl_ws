@@ -316,6 +316,12 @@ include("/home/andres/dev/ros2_pcl_ws/build/pointcloud_play/ament_cmake_symlink_
 # install(PROGRAMS "scripts/pc_pub.py" "DESTINATION" "lib/pointcloud_play")
 ament_cmake_symlink_install_programs("/home/andres/dev/ros2_pcl_ws/src/pointcloud_play" PROGRAMS "scripts/pc_pub.py" "DESTINATION" "lib/pointcloud_play")
 
+# install(DIRECTORY "launch" "DESTINATION" "share/pointcloud_play")
+ament_cmake_symlink_install_directory("/home/andres/dev/ros2_pcl_ws/src/pointcloud_play" DIRECTORY "launch" "DESTINATION" "share/pointcloud_play")
+
+# install(DIRECTORY "rviz" "DESTINATION" "share/pointcloud_play")
+ament_cmake_symlink_install_directory("/home/andres/dev/ros2_pcl_ws/src/pointcloud_play" DIRECTORY "rviz" "DESTINATION" "share/pointcloud_play")
+
 # install(FILES "/home/andres/dev/ros2_pcl_ws/build/pointcloud_play/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/pointcloud_play" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/andres/dev/ros2_pcl_ws/src/pointcloud_play" FILES "/home/andres/dev/ros2_pcl_ws/build/pointcloud_play/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/pointcloud_play" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 

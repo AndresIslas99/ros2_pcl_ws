@@ -22,5 +22,13 @@ install(PROGRAMS
   DESTINATION lib/${PROJECT_NAME}
 )
 
+# Instalar archivos de launch (para que 'ros2 launch' los encuentre)
+install(DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}
+)
+
+install(DIRECTORY rviz
+  DESTINATION share/${PROJECT_NAME}
+)
 
 ament_package()

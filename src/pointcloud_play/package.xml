@@ -4,8 +4,14 @@
   <name>pointcloud_play</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="andres@todo.todo">andres</maintainer>
+  <maintainer email="andresislas99@outlook.com">andres</maintainer>
   <license>TODO: License declaration</license>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <!-- Opcional si vas a lanzar RViz desde el launch -->
+  <exec_depend>rviz2</exec_depend>
+
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 

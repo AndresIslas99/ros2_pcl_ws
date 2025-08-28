@@ -1,0 +1,4 @@
+Invoking command in '/home/andres/dev/ros2_pcl_ws/build/pointcloud_play': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/andres/dev/ros2_pcl_ws/build/pointcloud_play -- -j32 -l32
+Invoked command in '/home/andres/dev/ros2_pcl_ws/build/pointcloud_play' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/andres/dev/ros2_pcl_ws/build/pointcloud_play -- -j32 -l32
+Invoking command in '/home/andres/dev/ros2_pcl_ws/build/pointcloud_play': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/andres/dev/ros2_pcl_ws/build/pointcloud_play
+Invoked command in '/home/andres/dev/ros2_pcl_ws/build/pointcloud_play' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/andres/dev/ros2_pcl_ws/build/pointcloud_play

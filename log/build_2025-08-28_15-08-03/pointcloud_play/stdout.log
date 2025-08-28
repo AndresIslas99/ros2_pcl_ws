@@ -1,0 +1,22 @@
+[100%] Built target pass_through
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/lib/pointcloud_play/pass_through
+-- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/lib/pointcloud_play/pc_pub.py
+-- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/launch/demo.launch.py
+-- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/rviz/points_demo.rviz
+-- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/ament_index/resource_index/package_run_dependencies/pointcloud_play
+-- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/ament_index/resource_index/parent_prefix_path/pointcloud_play
+-- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/environment/path.sh
+-- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/environment/path.dsv
+-- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/local_setup.bash
+-- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/local_setup.sh
+-- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/local_setup.zsh
+-- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/local_setup.dsv
+-- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/package.dsv
+-- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/ament_index/resource_index/packages/pointcloud_play
+-- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/cmake/pointcloud_playConfig.cmake
+-- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/cmake/pointcloud_playConfig-version.cmake
+-- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/package.xml

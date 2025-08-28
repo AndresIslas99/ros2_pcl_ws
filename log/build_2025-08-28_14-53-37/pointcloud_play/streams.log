@@ -1,0 +1,25 @@
+[0.006s] Invoking command in '/home/andres/dev/ros2_pcl_ws/build/pointcloud_play': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/andres/dev/ros2_pcl_ws/build/pointcloud_play -- -j32 -l32
+[0.058s] [100%] Built target pass_through
+[0.070s] Invoked command in '/home/andres/dev/ros2_pcl_ws/build/pointcloud_play' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/andres/dev/ros2_pcl_ws/build/pointcloud_play -- -j32 -l32
+[0.081s] Invoking command in '/home/andres/dev/ros2_pcl_ws/build/pointcloud_play': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/andres/dev/ros2_pcl_ws/build/pointcloud_play
+[0.088s] -- Install configuration: ""
+[0.089s] -- Execute custom install script
+[0.089s] -- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/lib/pointcloud_play/pass_through
+[0.089s] -- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/lib/pointcloud_play/pc_pub.py
+[0.090s] -- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/launch/demo.launch.py
+[0.090s] -- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/ament_index/resource_index/package_run_dependencies/pointcloud_play
+[0.091s] -- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/ament_index/resource_index/parent_prefix_path/pointcloud_play
+[0.091s] -- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/environment/ament_prefix_path.sh
+[0.091s] -- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/environment/ament_prefix_path.dsv
+[0.091s] -- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/environment/path.sh
+[0.091s] -- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/environment/path.dsv
+[0.091s] -- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/local_setup.bash
+[0.091s] -- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/local_setup.sh
+[0.091s] -- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/local_setup.zsh
+[0.091s] -- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/local_setup.dsv
+[0.091s] -- Symlinking: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/package.dsv
+[0.099s] -- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/ament_index/resource_index/packages/pointcloud_play
+[0.099s] -- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/cmake/pointcloud_playConfig.cmake
+[0.099s] -- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/cmake/pointcloud_playConfig-version.cmake
+[0.099s] -- Up-to-date symlink: /home/andres/dev/ros2_pcl_ws/install/pointcloud_play/share/pointcloud_play/package.xml
+[0.100s] Invoked command in '/home/andres/dev/ros2_pcl_ws/build/pointcloud_play' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/andres/dev/ros2_pcl_ws/build/pointcloud_play
