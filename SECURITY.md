@@ -1,7 +1,12 @@
 # Security Policy
 
-## Reporte de vulnerabilidades
-No publiques exploits. Escríbenos a **security@example.com** con:
-- versión de ROS 2, SO, pasos para reproducir, impacto.
+## Supported
+Se acepta reporte de vulnerabilidades mientras el repositorio esté activo.
 
-Responderemos en ≤14 días con plan de mitigación.
+## Reportar
+Envía detalles a: andresislas99@outlook.com
+
+Incluye:
+- Pasos para reproducir
+- Versiones (Ubuntu, ROS 2)
+- Logs relevantes

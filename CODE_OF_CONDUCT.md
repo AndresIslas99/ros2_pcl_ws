@@ -1,4 +1,8 @@
-# Código de Conducta
+# Code of Conduct
 
-Este proyecto se acoge al [Contributor Covenant](https://www.contributor-covenant.org/).
-Para reportar incidentes, escribe a **conduct@example.com**.
+Este proyecto adopta un entorno abierto y respetuoso.
+- Sé amable y evita ataques personales.
+- Respeta distintos niveles de experiencia.
+- Usa issues y PRs con empatía y claridad.
+
+Incidentes: escribe a andresislass99@outlook.com

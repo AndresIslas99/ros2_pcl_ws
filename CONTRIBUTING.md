@@ -1,14 +1,16 @@
-# Contribuir a ros2_pcl_ws
+# Contribuir
+
+¡Gracias por tu interés!
 
 ## Flujo
-1. Haz **fork** y crea rama: `git switch -c feature/nombre`.
-2. Ejecuta linters/tests localmente (si aplica).
-3. Abre un **Pull Request** a `main` describiendo cambios y pruebas.
+1. Abre un issue explicando el cambio.
+2. Crea una rama desde `main`.
+3. Sigue un estilo de commits claro (convencional si es posible).
+4. Actualiza documentación si aplica.
+5. Abre un PR enlazando el issue.
 
-## Estilo
-- C++: `ament_uncrustify` / `ament_cpplint`.
-- Python: `ament_flake8` / `ament_pep257`.
-
-## Commits / PR
-- Mensajes claros (`feat:`, `fix:`, `docs:`…).
-- Incluye resultados de `colcon test` y capturas si aplica.
+## Desarrollo local
+```bash
+colcon build --symlink-install
+source install/setup.bash   # si no usas direnv
+```
